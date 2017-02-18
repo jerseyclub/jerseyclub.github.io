@@ -40,6 +40,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
+  text-align: center;
 }
 @media (max-width: 900px) {
   .subheading {
@@ -155,6 +156,17 @@ a.logo{
 .col-12 {width: 100%;}
 
 /*containers*/
+.small-img{
+	max-width: 70%; 
+	margin: 0 auto 10px auto;
+	display:block; 
+	height: auto;
+	border: 2px solid white;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;
+}
+
+
 .container-lrg,
 .container-sml {
   margin: auto;
